@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Dev 3 test 1</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="timeoutEx">
+      <h1>Timeout and ClearTimeout Example</h1>
+      <button onclick="delayMessage();">
+        Show a message after two seconds
+      </button>
+      <button onclick="clearMessage();">
+        Cancel message before it happens
+      </button>
+      <div id="output"></div>
+    </div>
+    <div class="intervalEx">
+      <h1>Interval Example</h1>
+      <div id="my_box">
+        <h3>Hello World!</h3>
+        <p>This section changes colors based on the buttons below.</p>
+      </div>
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+    </div>
+    <div class="thisExamples">
+      <h1>Examples of "This"</h1>
+      <div class="thisObject">
+        <h2>Object Example</h2>
+        <h3 id="demo"></h3>
+        <p><b>this</b> refers to the <b>person</b> object.</p>
+        <p>Because <b>fullName</b> is a method of the person object.</p>
+      </div>
+      <div class="thisAlone">
+        <h2>Alone Example</h2>
+        <h3 id="alone"></h3>
+        <p>
+          <b>this</b>, when used alone, refers to the global object. This code
+          shows that <b>this</b>, in this context is the [object window]
+        </p>
+      </div>
+      <div class="thisFunction">
+        <h2>Function Example</h2>
+        <h3 id="thisFunc"></h3>
+        <p>
+          <b>this</b> is also displayed as the [window object] when in the
+          context of a function.
+        </p>
+      </div>
+      <div class="thisEvent">
+        <h2>Event Listener Example</h2>
+        <button
+          onclick="this.style.background='blue', this.style.color='white'">
+          Click to Make <b>this</b> Blue
+        </button>
+        <p>
+          With an event handler, <b>this</b> refers to the HTML element that
+          recieves the event.
+        </p>
+      </div>
+    </div>
+    <div class="dotBracket">
+      <h1>Dot and Bracket Notation Examples</h1>
+      <h2 id="dotNot"></h2>
+      <p>Salami was pulled from our object using dot notation.</p>
+      <h2 id="bracNot"></h2>
+      <p>Southwest was pulled using bracket notation.</p>
+      <h2 id="varBrac"></h2>
+      <p>White was pulled using bracket notation, with a variable.</p>
+    </div>
+    <div class="arrayIterators">
+      <h1>Examples of Array Iterators</h1>
+      <div class="arrayEach">
+        <h2 id="eachEx"></h2>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
