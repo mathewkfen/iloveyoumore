@@ -54,7 +54,8 @@
       <div class="thisEvent">
         <h2>Event Listener Example</h2>
         <button
-          onclick="this.style.background='blue', this.style.color='white'">
+          onclick="this.style.background='blue', this.style.color='white'"
+        >
           Click to Make <b>this</b> Blue
         </button>
         <p>
@@ -73,9 +74,15 @@
       <p>White was pulled using bracket notation, with a variable.</p>
     </div>
     <div class="arrayIterators">
-      <h1>Examples of Array Iterators</h1>
-      <div class="arrayEach">
-        <h2 id="eachEx"></h2>
+      <h1>preventDefault() Examples</h1>
+      <div class="prevDefault">
+        <h2 class="clickDefault">Click Event Prevent Default</h2>
+        <p>Do not click the checkbox!</p>
+        <form>
+          <label for="checkbox">The Checkbox</label>
+          <input type="checkbox" id="checkbox" />
+        </form>
+        <div id="output-box"></div>
       </div>
     </div>
     <script src="index.js"></script>

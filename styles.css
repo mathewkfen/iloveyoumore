@@ -1,39 +1,39 @@
 body {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 body p {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .go {
-    color: green;
+  color: green;
 }
 
 .stop {
-    color: red;
+  color: red;
 }
 
 #demo {
-    color: purple;
+  color: purple;
 }
 
 p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .timeoutEx {
-    background-color: rgb(70, 70, 125);
-    padding: 20px;
+  background-color: rgb(70, 70, 125);
+  padding: 20px;
 }
 
 .timeoutEx button {
-    background: rgb(215, 118, 118);
-    font-size: 20px;
+  background: rgb(215, 118, 118);
+  font-size: 20px;
 }
 
 #output {
-    font-size: 20px;
-    color: rgb(171, 168, 168);
-    margin-top: 10px;
+  font-size: 20px;
+  color: rgb(171, 168, 168);
+  margin-top: 10px;
 }
